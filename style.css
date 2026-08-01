@@ -227,10 +227,47 @@ footer{
 
         font-size:15px;
     }
+.logo{
+    width:180px;
+    height:auto;
+    max-width:100%;
+    display:block;
+    margin:0 auto;
+}
 
-    .logo{
+/* Mobile */
+@media (max-width: 768px) {
 
-        width:90px;
+    .container{
+        padding: 24px;
+    }
+
+    h1{
+        font-size: 42px;
+    }
+
+    .subtitle{
+        font-size: 20px;
+        margin-bottom: 28px;
+    }
+
+    .status{
+        font-size: 22px;
+    }
+
+    .description{
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .footer{
+        margin-top: 50px;
+        font-size: 14px;
     }
 
 }
+
+.logo{
+        width:140px;
+        height:auto;
+    }
